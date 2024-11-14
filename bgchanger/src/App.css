@@ -1,0 +1,15 @@
+.btn{
+    box-shadow: 0 8px 10px rgba(0,0,0,0.2);
+}
+
+.btn:hover{
+    transform: translateY(-20px);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:active{
+    transform: scale(0.90);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
