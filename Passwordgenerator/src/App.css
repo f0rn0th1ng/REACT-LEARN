@@ -1,0 +1,28 @@
+.container_for_result{
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.show{
+    opacity: 1;
+    opacity-transition: all 0.3s ease-in-out;
+    pointer-events: all;
+}
+
+.hade{
+    opacity: 0;
+    opacity-transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.move_down{
+    transform: translateY(5px);
+    transform:translateX(-18px);
+    transition: all 0.3s ease-in-out;
+}
+
+.move_up{
+    transform: translateY(-45px);
+    transition: all 0.3s ease-in-out;
+}
